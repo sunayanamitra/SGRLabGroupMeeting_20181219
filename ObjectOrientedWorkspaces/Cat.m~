@@ -38,16 +38,8 @@ classdef Cat < handle
         
         function obj = Play(obj);
             obj.energy = obj.energy - 1;
-            obj.hungry = obj.hungry + 1;
+            obj.hungry = obj.hungry - 1;
             obj.mood = obj.mood + 1
-            obj.meow;
-            beep;
-        end
-        
-        function obj = Sleep(obj);
-            obj.energy = obj.energy - 1;
-            obj.mood = obj.mood - 1;
-            obj.hungry = obj.hungry + 1;
             obj.meow;
             beep;
         end

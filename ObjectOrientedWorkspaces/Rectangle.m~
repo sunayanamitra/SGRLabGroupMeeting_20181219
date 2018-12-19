@@ -14,12 +14,11 @@ classdef Rectangle < Shape
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         %       Put your code below      %
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        function perimeter = CalculatePerimeter(obj)
+        function perimetter = CalculatePerimeter(obj)
             perimeter = 2*obj.length +2*obj.width;
         end
         
         function area = CalculateArea(obj)
-            area = obj.length*obj.width;
-        end
+            area = obj.length
     end
 end

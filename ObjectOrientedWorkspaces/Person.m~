@@ -13,14 +13,6 @@ classdef Person
         %       Put your code below      %
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         function obj = Person(name, email)
-            obj.name = name;
-            obj.email = email;
-        end
-        
-        function obj = setName(obj, newName, newemail)
-            obj.name = newName;
-            obj.email = newemail;
-        end
-       
+        ob
     end
 end

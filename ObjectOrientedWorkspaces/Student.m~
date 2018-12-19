@@ -21,9 +21,6 @@ classdef Student < Person
             obj.grades = grades;
         end
         
-        function grades = getGrades(obj)
-            grades = obj.grades;
-        end
     end
 end
         
